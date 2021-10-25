@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-24T15:29:25 PDT" name="Rest API Test Suite" finished-at="2021-10-24T15:29:28 PDT" duration-ms="3324">
+    <groups>
+    </groups>
+    <test started-at="2021-10-24T15:29:25 PDT" name="Verify Imgur APIs" finished-at="2021-10-24T15:29:28 PDT" duration-ms="3324">
+      <class name="com.qa.api.gorest.tests.GetImgurAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.gorest.tests.GetImgurAPITest@3901f6af]" started-at="2021-10-24T15:29:25 PDT" name="setUp" finished-at="2021-10-24T15:29:25 PDT" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAccountBlockStatusTest()[pri:0, instance:com.qa.api.gorest.tests.GetImgurAPITest@3901f6af]" started-at="2021-10-24T15:29:25 PDT" name="getAccountBlockStatusTest" finished-at="2021-10-24T15:29:26 PDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountBlockStatusTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.gorest.tests.GetImgurAPITest@3901f6af]" started-at="2021-10-24T15:29:26 PDT" name="setUp" finished-at="2021-10-24T15:29:26 PDT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAccountImagesTest()[pri:0, instance:com.qa.api.gorest.tests.GetImgurAPITest@3901f6af]" started-at="2021-10-24T15:29:26 PDT" name="getAccountImagesTest" finished-at="2021-10-24T15:29:26 PDT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAccountImagesTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.api.gorest.tests.GetImgurAPITest@3901f6af]" started-at="2021-10-24T15:29:26 PDT" name="setUp" finished-at="2021-10-24T15:29:26 PDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="uploadImageTest()[pri:0, instance:com.qa.api.gorest.tests.GetImgurAPITest@3901f6af]" started-at="2021-10-24T15:29:26 PDT" name="uploadImageTest" finished-at="2021-10-24T15:29:28 PDT" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadImageTest -->
+      </class> <!-- com.qa.api.gorest.tests.GetImgurAPITest -->
+    </test> <!-- Verify Imgur APIs -->
+  </suite> <!-- Rest API Test Suite -->
+</testng-results>

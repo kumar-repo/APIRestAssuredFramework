@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rest API Test Suite" parallel="tests" thread-count="2">
+
+	<!-- to run parallel with 2 parallel threads parallel="tests" thread-count="2" -->
+		
+	<listeners>
+		<listener class-name="com.qa.api.gorest.listerners.ExtentReportListener" /> 
+		<listener class-name="com.qa.api.gorest.listerners.TestAllureListener" /> 
+	</listeners>
+	
+	<!-- Test -->
+	<test name="Verify Create user Rest API functionality">
+		<classes>
+			<class name="com.qa.api.gorest.tests.CreateUserTest" />
+		</classes>
+	</test>
+	
+	<!-- Test -->
+	<test name="Verify get user API functionality">
+		<classes>
+			<class name="com.qa.api.gorest.tests.GetUserTest" />
+		</classes>
+	</test>
+	
+	<!--Test -->
+	<test name="Verify Imgur APIs">  
+		<classes> 
+			<class name="com.qa.api.gorest.tests.GetImgurAPITest" /> 
+		</classes>
+	</test> 
+	
+	<!-- To get allure-report 
+	go to project direcotry cd ...
+	run cmd: allure serve allure-results
+	 -->
+	 
+	<!--  Also we can write test cases in following formate to execute parallely -->
+	<!-- <test name="Rest API Testcases" parallel="classes" thread-count="3">
+	<classes>
+	<class name="com.qa.api.gorest.tests.CreateUserTest" />
+	<class name="com.qa.api.gorest.tests.GetUserTest" />
+	<class name="com.qa.api.gorest.tests.GetImgurAPITest" />
+	</classes>	
+	</test>-->
+	
+</suite>
